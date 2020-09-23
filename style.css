@@ -340,11 +340,15 @@ td img{
     padding: 20px;
     font-size: 1em;
     font-weight: bold;
-    font-stretch: wider;
     font-style: italic;
     border: 2px solid rgb(235, 178, 103);
     border-radius: 5px;
     background-color: rgb(255, 219, 172);
+}
+
+.btn-purchase:hover{
+    background-color: rgb(252, 204, 142);
+    cursor: pointer;
 }
 
 .btn-purchase-block{
