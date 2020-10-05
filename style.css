@@ -152,6 +152,10 @@ html, body{
         text-align: center;
     }
 
+    .main-paragraph-dot{
+        display: none;
+    }
+
     @media screen and (max-width: 300px) {
         .main-paragraph{
             width: 55%;
