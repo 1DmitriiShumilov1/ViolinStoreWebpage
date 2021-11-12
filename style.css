@@ -200,6 +200,7 @@ span {
   .pg-img {
     max-width: 250px;
     margin: auto;
+    float: left;
   }
   .pg p {
     text-align: center;
@@ -235,6 +236,7 @@ span {
   .small-screen {
     display: block;
     color: white;
+    display: flex;
   }
 
   .header-nav-list {
@@ -245,13 +247,36 @@ span {
     font-size: 3.5em;
   }
 
-  .hamburger {
-    background-color: rgb(104, 104, 104);
+  .new {
+    background-color: #444;
+    display: flex;
   }
-  .welcome {
-    background-color: rgb(172, 172, 172);
-    margin: 0 auto;
-    font-size: 3em;
+  .spann {
+    padding: 0.5em 1em;
+    color: white;
+    font-size: 1.3em;
+  }
+  .s-1 {
+    background-color: transparent;
+    border: none;
+  }
+  .s-1:active {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .s-2 {
+    background-color: #37c0fb5b;
+    margin-left: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .white {
+    color: white;
+  }
+
+  .pg-img {
+    float: left;
   }
 }
 
