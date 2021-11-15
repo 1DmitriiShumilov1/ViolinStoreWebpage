@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  color: #444;
+  color: #555;
 }
 
 body,
@@ -29,9 +29,10 @@ ul {
 .header-nav {
   position: absolute;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   position: fixed;
 }
+
 .big-screen {
   display: block;
 }
@@ -49,21 +50,35 @@ ul {
 .header-nav-list li {
   display: inline;
   padding: 20px;
-  color: aliceblue;
   font-weight: 500;
 }
 
-.header-nav-list li a {
-  color: aliceblue;
+.header-links {
   text-decoration: none;
   height: fit-content;
 }
 
+.active {
+  color: #111;
+}
+
 .header-index {
-  background-image: url(img/bannerHome.jpg);
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /*background-image: url(img/bannerHome.jpg);
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .title {
@@ -110,7 +125,7 @@ ul {
 }
 
 .pg-background {
-  background-color: aliceblue;
+  background-color: rgb(255, 243, 239);
 }
 
 .pg-background,
@@ -137,13 +152,12 @@ ul {
 }
 
 .pg p {
-  color: #555;
   line-height: 1.5;
   margin-top: 0;
 }
 
 .outro {
-  background-color: #37c0fb;
+  background-color: #f374356b;
   padding: 3em 0;
 }
 
@@ -266,7 +280,7 @@ span {
     border-bottom-right-radius: 5px;
   }
   .s-2 {
-    background-color: #37c0fb5b;
+    background-color: #fba637ab;
     margin-left: auto;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
